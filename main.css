@@ -15630,6 +15630,14 @@ html,
   .dcg-mq-cursor.dcg-mq-blink {
   visibility: hidden;
 }
+
+.dcg-calculator-api-container
+  .dcg-mq-editable-field
+  .dcg-mq-cursor::after {
+    content: '';
+    border-left: 0.5px solid transparent;
+  }
+
 .dcg-calculator-api-container .dcg-mq-editable-field,
 .dcg-calculator-api-container .dcg-mq-math-mode .dcg-mq-editable-field {
   border: 1px solid gray;
